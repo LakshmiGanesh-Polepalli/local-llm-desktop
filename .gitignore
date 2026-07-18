@@ -1,0 +1,37 @@
+# Virtual Environments
+venv/
+venv-linux/
+venv-win/
+__pycache__/
+*.pyc
+
+# IDE & OS Files
+.vs/
+.DS_Store
+
+# Frontend (Node/React)
+node_modules/
+dist/
+frontend/dist/
+
+# Tauri (Rust)
+src-tauri/target/
+*.pdb
+
+# Build Artifacts & Heavy Binaries
+build/
+backend/dist/
+backend/build/
+*.exe
+*.msi
+*.dll
+
+# Databases & User Data (Keep your local chats private!)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables
+.env
+.env.*
+*.env*.env
